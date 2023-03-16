@@ -1,0 +1,33 @@
+﻿a:link {
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+
+a:hover {
+    font-size: 15px;
+    color: brown;
+}
+.txtbx{
+    border : 2px solid #000000;
+    border-radius:10px;
+    height:22px;
+}
+.txtbx:hover{
+    border-color:blue;
+}
+.btn {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    height: 22px;
+}
+.btn:hover{
+    background-color:brown;
+    color:white;
+}
+.lbl:hover{
+    color:white;
+}
