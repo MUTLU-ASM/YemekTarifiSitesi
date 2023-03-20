@@ -11,61 +11,70 @@ namespace YemekTarifiSitesi
 {
 
 
-    public partial class YemekDuzenle
+    public partial class TarifOnerDetay
     {
 
         /// <summary>
-        /// txtAd control.
+        /// txtTarifAd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAd;
+        protected global::System.Web.UI.WebControls.TextBox txtTarifAd;
 
         /// <summary>
-        /// txtMalzeme control.
+        /// txtMalzemeler control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMalzeme;
+        protected global::System.Web.UI.WebControls.TextBox txtMalzemeler;
 
         /// <summary>
-        /// txtTarif control.
+        /// txtYapilis control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTarif;
+        protected global::System.Web.UI.WebControls.TextBox txtYapilis;
 
         /// <summary>
-        /// dropListKategori control.
+        /// FileUpload1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList dropListKategori;
+        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
 
         /// <summary>
-        /// btnGüncelle control.
+        /// txtOneren control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnGüncelle;
+        protected global::System.Web.UI.WebControls.TextBox txtOneren;
 
         /// <summary>
-        /// btnGununyemegi control.
+        /// txtMail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnGununyemegi;
+        protected global::System.Web.UI.WebControls.TextBox txtMail;
+
+        /// <summary>
+        /// btnYorumYap control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnYorumYap;
     }
 }

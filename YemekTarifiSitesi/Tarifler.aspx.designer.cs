@@ -11,61 +11,52 @@ namespace YemekTarifiSitesi
 {
 
 
-    public partial class YemekDuzenle
+    public partial class Tarifler
     {
 
         /// <summary>
-        /// txtAd control.
+        /// Panel1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAd;
+        protected global::System.Web.UI.WebControls.Panel Panel1;
 
         /// <summary>
-        /// txtMalzeme control.
+        /// btnArtı control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMalzeme;
+        protected global::System.Web.UI.WebControls.Button btnArtı;
 
         /// <summary>
-        /// txtTarif control.
+        /// btnEksi control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTarif;
+        protected global::System.Web.UI.WebControls.Button btnEksi;
 
         /// <summary>
-        /// dropListKategori control.
+        /// Panel2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList dropListKategori;
+        protected global::System.Web.UI.WebControls.Panel Panel2;
 
         /// <summary>
-        /// btnGüncelle control.
+        /// DataList2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnGüncelle;
-
-        /// <summary>
-        /// btnGununyemegi control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnGununyemegi;
+        protected global::System.Web.UI.WebControls.DataList DataList2;
     }
 }

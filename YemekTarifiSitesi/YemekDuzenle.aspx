@@ -55,5 +55,11 @@
                 <asp:Button ID="btnGüncelle" runat="server" CssClass="btn" Font-Bold="True" Height="39px" OnClick="btnGüncelle_Click" Text="Güncelle" Width="189px" />
                 </strong></td>
         </tr>
+        <tr>
+            <td class="auto-style15">&nbsp;</td>
+            <td class="auto-style18"><strong>
+                <asp:Button ID="btnGununyemegi" runat="server" CssClass="btn" Font-Bold="True" Height="39px"  Text="Günün yemeğini seç" Width="189px" BorderColor="#CC3300" OnClick="btnGununyemegi_Click" />
+                </strong></td>
+        </tr>
     </table>
 </asp:Content>

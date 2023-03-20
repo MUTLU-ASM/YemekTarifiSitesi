@@ -63,10 +63,10 @@
                         <td class="auto-style13" style="border-width: thin; border-style: solid; border-color: #FFFFFF"><a href="Mesajlar.aspx" style="color:firebrick; font-family:'Times New Roman', Times, serif">MESAJLAR</a></td>
                     </tr>
                     <tr>
-                        <td class="auto-style13" style="border-width: thin; border-style: solid; border-color: #FFFFFF">GÜNÜN YEMEĞİ</td>
+                        <td class="auto-style13" style="border-width: thin; border-style: solid; border-color: #FFFFFF"><a href="GununYemegiAdmin.aspx"style="color:firebrick; font-family:'Times New Roman', Times, serif">GÜNÜN YEMEĞİ</a></td>
                     </tr>
                     <tr>
-                        <td class="auto-style13" style="border-width: thin; border-style: solid; border-color: #FFFFFF">ÖNERİLER</td>
+                        <td class="auto-style13" style="border-width: thin; border-style: solid; border-color: #FFFFFF"><a href="Tarifler.aspx"style="color:firebrick; font-family:'Times New Roman', Times, serif">TARİFLER</a></td>
                     </tr>
                     <tr>
                         <td class="auto-style13" style="border-width: thin; border-style: solid; border-color: #FFFFFF">HAKKIMIZDA</td>
