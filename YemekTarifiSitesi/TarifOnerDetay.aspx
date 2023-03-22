@@ -50,28 +50,35 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style19"><strong>Tarif resim:</strong></td>
+            <td class="auto-style19"><strong>Tarif resim :</strong></td>
             <td>
                 <asp:FileUpload ID="FileUpload1" runat="server" Height="31px" Width="250px" />
             </td>
         </tr>
         <tr>
-            <td class="auto-style19"><strong>Öneren</strong>:</td>
+            <td class="auto-style19"><strong>Öneren </strong>:</td>
             <td>
                 <asp:TextBox ID="txtOneren" runat="server" Height="20px" Width="250px" CssClass="txtbx"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="auto-style19"><strong>Mail</strong></td>
+            <td class="auto-style19"><strong>Mail :</strong></td>
             <td>
                 <asp:TextBox ID="txtMail" runat="server" Height="20px" Width="250px" CssClass="txtbx"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style19"><strong>Kategori :</strong></td>
+            <td>
+                <asp:DropDownList ID="dropListKategori" runat="server" Width="200px">
+                </asp:DropDownList>
             </td>
         </tr>
         <tr>
             <td class="auto-style18">&nbsp;</td>
             <td>
                 <strong>
-                <asp:Button ID="btnYorumYap" runat="server" Text="YorumYap" Width="202px" Height="35px"  CssClass="auto-style20" />
+                <asp:Button ID="btnOnayla" runat="server" Text="Onayla" Width="202px" Height="35px"  CssClass="auto-style20" OnClick="btnOnayla_Click" />
                 </strong>
             </td>
         </tr>

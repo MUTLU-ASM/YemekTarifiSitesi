@@ -54,7 +54,7 @@
                         <td class="auto-style13" style="border-width: thin; border-style: solid; border-color: #FFFFFF" ><a href="Kategoriler.aspx" style="color:firebrick; font-family:'Times New Roman', Times, serif" >KATEGORİLER</a> </td>
                     </tr>
                     <tr>
-                        <td class="auto-style13" style="border-width: thin; border-style: solid; border-color: #FFFFFF"><a href="Kategoriler.aspx" style="color:firebrick; font-family:'Times New Roman', Times, serif" >YEMEKLER</a></td>
+                        <td class="auto-style13" style="border-width: thin; border-style: solid; border-color: #FFFFFF"><a href="Yemekler.aspx" style="color:firebrick; font-family:'Times New Roman', Times, serif" >YEMEKLER</a></td>
                     </tr>
                     <tr>
                         <td class="auto-style13" style="border-width: thin; border-style: solid; border-color: #FFFFFF"><a href="Yorumlar.aspx" style="color:firebrick; font-family:'Times New Roman', Times, serif">YORUMLAR</a></td>
@@ -69,7 +69,7 @@
                         <td class="auto-style13" style="border-width: thin; border-style: solid; border-color: #FFFFFF"><a href="Tarifler.aspx"style="color:firebrick; font-family:'Times New Roman', Times, serif">TARİFLER</a></td>
                     </tr>
                     <tr>
-                        <td class="auto-style13" style="border-width: thin; border-style: solid; border-color: #FFFFFF">HAKKIMIZDA</td>
+                        <td class="auto-style13" style="border-width: thin; border-style: solid; border-color: #FFFFFF"><a href="HakkimizdaAdmin.aspx"style="color:firebrick; font-family:'Times New Roman', Times, serif">HAKKIMIZDA</a></td>
                     </tr>
                     <tr>
                         <td class="auto-style13">&nbsp;</td>

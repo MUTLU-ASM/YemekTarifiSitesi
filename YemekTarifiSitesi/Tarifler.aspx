@@ -38,12 +38,46 @@
                 <td class="auto-style20"><strong>
                     <asp:Button ID="btnEksi" runat="server" Height="30px" Text="-" Width="30px"  CssClass="txtbx" OnClick="btnEksi_Click"  />
                     </strong></td>
-                <td class="auto-style22"><strong>TARİF LİSTESİ</strong></td>
+                <td class="auto-style22"><strong>ONAYSIZ TARİF LİSTESİ</strong></td>
             </tr>
         </table>
     </asp:Panel>
      <asp:Panel ID="Panel2" runat="server">
             <asp:DataList ID="DataList2" runat="server" CellPadding="4" ForeColor="#333333" Width="478px">
+                <AlternatingItemStyle BackColor="White" />
+                <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+                <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+                <ItemStyle BackColor="#E3EAEB" />
+                <ItemTemplate>
+                    <table class="auto-style11">
+                        <tr>
+                            <td class="auto-style24">
+                                <asp:Label ID="Label2" runat="server" Text='<%# Eval("ad") %>'></asp:Label>
+                            </td>
+                            <td class="auto-style23">
+                                <a href="TarifOnerDetay.aspx?tarifid=<%#Eval("tarifid")%>"><asp:Image ID="Image5" runat="server" Height="30px" ImageUrl="~/Images/updated.png" Width="30px" /></a>
+                            </td>
+                        </tr>
+                    </table>
+                </ItemTemplate>
+                <SelectedItemStyle BackColor="#C5BBAF" Font-Bold="True" ForeColor="#333333" />
+            </asp:DataList>
+        </asp:Panel>
+    <asp:Panel ID="Panel3" runat="server">
+        <table class="auto-style21">
+            <tr>
+                <td class="auto-style19"><strong>
+                    <asp:Button ID="btnAltArtı" runat="server" Height="30px" Text="+" Width="30px"  CssClass="btn" OnClick="btnAltArtı_Click"    />
+                    </strong></td>
+                <td class="auto-style20"><strong>
+                    <asp:Button ID="btnAltEksi" runat="server" Height="30px" Text="-" Width="30px"  CssClass="txtbx" OnClick="btnAltEksi_Click"   />
+                    </strong></td>
+                <td class="auto-style22"><strong>ONAYLI TARİF LİSTESİ</strong></td>
+            </tr>
+        </table>
+    </asp:Panel>
+    <asp:Panel ID="Panel4" runat="server">
+            <asp:DataList ID="DataList1" runat="server" CellPadding="4" ForeColor="#333333" Width="478px">
                 <AlternatingItemStyle BackColor="White" />
                 <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
                 <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />

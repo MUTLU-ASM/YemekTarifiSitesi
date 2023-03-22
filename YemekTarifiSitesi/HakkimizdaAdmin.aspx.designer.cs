@@ -11,7 +11,7 @@ namespace YemekTarifiSitesi
 {
 
 
-    public partial class Tarifler
+    public partial class HakkimizdaAdmin
     {
 
         /// <summary>
@@ -51,57 +51,21 @@ namespace YemekTarifiSitesi
         protected global::System.Web.UI.WebControls.Panel Panel2;
 
         /// <summary>
-        /// DataList2 control.
+        /// txtHakkimizda control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList DataList2;
+        protected global::System.Web.UI.WebControls.TextBox txtHakkimizda;
 
         /// <summary>
-        /// Panel3 control.
+        /// btnUpdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel3;
-
-        /// <summary>
-        /// btnAltArtı control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAltArtı;
-
-        /// <summary>
-        /// btnAltEksi control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAltEksi;
-
-        /// <summary>
-        /// Panel4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel4;
-
-        /// <summary>
-        /// DataList1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList DataList1;
+        protected global::System.Web.UI.WebControls.Button btnUpdate;
     }
 }
