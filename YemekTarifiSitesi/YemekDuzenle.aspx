@@ -4,17 +4,16 @@
         .auto-style15 {
             height: 26px;
         }
-        .auto-style16 {
-            border: 2px solid #000000;
-            border-radius: 10px;
-            font-weight: bold;
-        }
         .auto-style17 {
             text-align: right;
         }
         .auto-style18 {
             height: 26px;
             text-align: justify;
+        }
+        .auto-style19 {
+            height: 26px;
+            text-align: right;
         }
     </style>
 </asp:Content>
@@ -47,6 +46,12 @@
             <td>
                 <asp:DropDownList ID="dropListKategori" runat="server" CssClass="txtbx" Height="31px" Width="250px">
                 </asp:DropDownList>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style19"><strong>Yemek Görüntü :</strong></td>
+            <td class="auto-style18">
+                <asp:FileUpload ID="FileUpload1" runat="server" Width="250px" />
             </td>
         </tr>
         <tr>

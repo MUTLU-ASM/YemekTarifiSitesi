@@ -42,7 +42,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style8">
-                        <asp:Image ID="Image1" runat="server" CssClass="auto-style10" Height="210px" ImageUrl="~/Images/musakka.jpg" Width="365px" />
+                        <asp:Image ID="Image1" runat="server" CssClass="auto-style10" Height="210px" ImageUrl='<%# Eval("resim") %>' Width="365px" />
                     </td>
                 </tr>
                 <tr>
